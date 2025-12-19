@@ -111,7 +111,6 @@ def vision_loop():
         if results.pose_landmarks:
             metrics = biometrics.calculate_metrics(results.pose_landmarks.landmark)
 
-        # --- Logic ---
         status_text = "Init..."
         color = (200, 200, 200)
 
